@@ -1,0 +1,19 @@
+# SWI-Prolog generated files
+*.qlf
+*.xwam
+*.po
+
+# Build and coverage output
+coverage/
+dist/
+build/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp

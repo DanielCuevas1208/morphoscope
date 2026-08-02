@@ -1,0 +1,19 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  plunit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Install SWI-Prolog
+        run: sudo apt-get update && sudo apt-get install --no-install-recommends -y swi-prolog-nox
+      - name: Run plunit tests
+        run: swipl -q -f none -s test/test_morphoscope.pl -g run_tests -t halt
