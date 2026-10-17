@@ -22,7 +22,7 @@ regular_lemma(Lemma) :-
              match, miss, move, name, need, notice, offer, open, order, produce,
              promise, protect, provide, pull, push, reach, receive, reduce,
              refuse, remember, repeat, replace, reply, report, require, rest,
-             return, save, search, serve, share, smile, solve, start, stay,
+             return, save, search, serve, share, shop, smile, solve, start, stay,
              step, stop, study, suggest, support, talk, taste, test, thank,
              touch, train, treat, try, turn, use, visit, wait, walk, want, wash,
              watch, wave, wish, work, wrap, zoom
